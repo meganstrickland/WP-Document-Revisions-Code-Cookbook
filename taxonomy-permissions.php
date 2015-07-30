@@ -62,7 +62,7 @@ License: GPL3
  * simply change the word `department` on the following line to `workflow_state`.
  * No other changes are needed.
  */
-$wpdr_permissions_taxonomy = 'department';
+$wpdr_permissions_taxonomy = 'document';
 
 /**
  * Taxonomy Labels:
@@ -74,21 +74,21 @@ $wpdr_permissions_taxonomy = 'department';
  * human-readible label for your custom taxonomy.
  */
 $wpdr_permissions_labels = array(
-	'name'                       => _x( 'Departments', 'wp-document-revisions' ),
-	'singular_name'              => _x( 'Department', 'wp-document-revisions' ),
-	'search_items'               => _x( 'Search Departments', 'wp-document-revisions' ),
-	'popular_items'              => _x( 'Popular Departments', 'wp-document-revisions' ),
-	'all_items'                  => _x( 'All Departments', 'wp-document-revisions' ),
-	'parent_item'                => _x( 'Parent Department', 'wp-document-revisions' ),
-	'parent_item_colon'          => _x( 'Parent Department:', 'wp-document-revisions' ),
-	'edit_item'                  => _x( 'Edit Department', 'wp-document-revisions' ),
-	'update_item'                => _x( 'Update Department', 'wp-document-revisions' ),
-	'add_new_item'               => _x( 'Add New Department', 'wp-document-revisions' ),
-	'new_item_name'              => _x( 'New Department', 'wp-document-revisions' ),
-	'separate_items_with_commas' => _x( 'Separate departments with commas', 'wp-document-revisions' ),
-	'add_or_remove_items'        => _x( 'Add or remove departments', 'wp-document-revisions' ),
-	'choose_from_most_used'      => _x( 'Choose from the most used departments', 'wp-document-revisions' ),
-	'menu_name'                  => _x( 'Departments', 'wp-document-revisions' ),
+	'name'                       => _x( 'Documents', 'wp-document-revisions' ),
+	'singular_name'              => _x( 'Document', 'wp-document-revisions' ),
+	'search_items'               => _x( 'Search Documents', 'wp-document-revisions' ),
+	'popular_items'              => _x( 'Popular Documents', 'wp-document-revisions' ),
+	'all_items'                  => _x( 'All Documents', 'wp-document-revisions' ),
+	'parent_item'                => _x( 'Parent Document', 'wp-document-revisions' ),
+	'parent_item_colon'          => _x( 'Parent Document:', 'wp-document-revisions' ),
+	'edit_item'                  => _x( 'Edit Document', 'wp-document-revisions' ),
+	'update_item'                => _x( 'Update Document', 'wp-document-revisions' ),
+	'add_new_item'               => _x( 'Add New Document', 'wp-document-revisions' ),
+	'new_item_name'              => _x( 'New Document', 'wp-document-revisions' ),
+	'separate_items_with_commas' => _x( 'Separate documents with commas', 'wp-document-revisions' ),
+	'add_or_remove_items'        => _x( 'Add or remove documents', 'wp-document-revisions' ),
+	'choose_from_most_used'      => _x( 'Choose from the most used documents', 'wp-document-revisions' ),
+	'menu_name'                  => _x( 'Documents', 'wp-document-revisions' ),
 );
 
 
@@ -107,10 +107,10 @@ $wpdr_permissions_taxonomy_args = array(
 	'rewrite'           => false,
 	'query_var'         => true,
 	'capabilities'      => array(
-		'manage_terms'  => 'manage_departments',
-		'edit_terms'    => 'edit_departments',
-		'delete_terms'  => 'delete_departments',
-		'assign_terms'  => 'assign_departments',
+		'manage_terms'  => 'manage_documents',
+		'edit_terms'    => 'edit_documents',
+		'delete_terms'  => 'delete_documents',
+		'assign_terms'  => 'assign_documents',
 	)
 );
 
