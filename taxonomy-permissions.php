@@ -62,7 +62,7 @@ License: GPL3
  * simply change the word `department` on the following line to `workflow_state`.
  * No other changes are needed.
  */
-$wpdr_permissions_taxonomy = 'document';
+$wpdr_permissions_taxonomy = 'document_categories';
 
 /**
  * Taxonomy Labels:
@@ -74,21 +74,21 @@ $wpdr_permissions_taxonomy = 'document';
  * human-readible label for your custom taxonomy.
  */
 $wpdr_permissions_labels = array(
-	'name'                       => _x( 'Documents', 'wp-document-revisions' ),
-	'singular_name'              => _x( 'Document', 'wp-document-revisions' ),
-	'search_items'               => _x( 'Search Documents', 'wp-document-revisions' ),
-	'popular_items'              => _x( 'Popular Documents', 'wp-document-revisions' ),
-	'all_items'                  => _x( 'All Documents', 'wp-document-revisions' ),
-	'parent_item'                => _x( 'Parent Document', 'wp-document-revisions' ),
-	'parent_item_colon'          => _x( 'Parent Document:', 'wp-document-revisions' ),
-	'edit_item'                  => _x( 'Edit Document', 'wp-document-revisions' ),
-	'update_item'                => _x( 'Update Document', 'wp-document-revisions' ),
-	'add_new_item'               => _x( 'Add New Document', 'wp-document-revisions' ),
-	'new_item_name'              => _x( 'New Document', 'wp-document-revisions' ),
-	'separate_items_with_commas' => _x( 'Separate documents with commas', 'wp-document-revisions' ),
-	'add_or_remove_items'        => _x( 'Add or remove documents', 'wp-document-revisions' ),
-	'choose_from_most_used'      => _x( 'Choose from the most used documents', 'wp-document-revisions' ),
-	'menu_name'                  => _x( 'Documents', 'wp-document-revisions' ),
+	'name'                       => _x( 'Document Categories', 'wp-document-revisions' ),
+	'singular_name'              => _x( 'Document Category', 'wp-document-revisions' ),
+	'search_items'               => _x( 'Search Document Categories', 'wp-document-revisions' ),
+	'popular_items'              => _x( 'Popular Document Categories', 'wp-document-revisions' ),
+	'all_items'                  => _x( 'All Document Categories', 'wp-document-revisions' ),
+	'parent_item'                => _x( 'Parent Document Category', 'wp-document-revisions' ),
+	'parent_item_colon'          => _x( 'Parent Document Category:', 'wp-document-revisions' ),
+	'edit_item'                  => _x( 'Edit Document Category', 'wp-document-revisions' ),
+	'update_item'                => _x( 'Update Document Category', 'wp-document-revisions' ),
+	'add_new_item'               => _x( 'Add New Document Category', 'wp-document-revisions' ),
+	'new_item_name'              => _x( 'New Document Category', 'wp-document-revisions' ),
+	'separate_items_with_commas' => _x( 'Separate document categories with commas', 'wp-document-revisions' ),
+	'add_or_remove_items'        => _x( 'Add or remove document categories', 'wp-document-revisions' ),
+	'choose_from_most_used'      => _x( 'Choose from the most used document categors', 'wp-document-revisions' ),
+	'menu_name'                  => _x( 'Document Categories', 'wp-document-revisions' ),
 );
 
 
